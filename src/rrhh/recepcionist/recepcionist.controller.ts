@@ -3,7 +3,7 @@ import { Return } from 'src/assets/return.interface';
 import { RecepcionistDTO } from './recepcionist.DTO';
 import { RecepcionistService } from './recepcionist.service';
 
-@Controller('recepcionist')
+@Controller('recepcionists')
 export class RecepcionistController {
 
     constructor(private recepcionistService: RecepcionistService) { }
