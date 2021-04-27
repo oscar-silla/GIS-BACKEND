@@ -3,7 +3,7 @@ import { Return } from 'src/assets/return.interface';
 import { LabReportsDTO } from './lab-reports.DTO';
 import { LabReportsService } from './lab-reports.service';
 
-@Controller('lab-reports')
+@Controller('laboratory/reports')
 export class LabReportsController {
 
     constructor(private labReportService: LabReportsService) {}
